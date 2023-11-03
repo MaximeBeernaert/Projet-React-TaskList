@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.UserInputContainer{
+  margin: 3em 0em 3em 0em;
+}
+
+.TodoListContainer{
+  display:flex;
+  justify-content: center;
+}
+.TaskListContainer{
+  max-width: 500px;
+}
+.TaskContainer{
+  display: flex;
+  justify-content: right;
+}
+.TaskElement{
+  padding: 0em 0.5em 0 0.5em;
+  margin:0em 0.5em 0 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
